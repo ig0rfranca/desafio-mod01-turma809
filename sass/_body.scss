@@ -1,0 +1,117 @@
+.s-perfil {
+    margin-top: 9.7rem;
+    
+    .container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .card-area-perfil {
+        background-color: white;
+        max-width: 85rem;
+        width: 100%;
+        border-radius: 0 0 0.4rem 0.4rem;
+        @include responsive(768px) {
+            max-width: 71.7rem;
+            width: 100%;
+        }
+
+        .background-perfil {
+            height: 13.5rem;
+            border-radius: 0.4rem 0.4rem 0 0;
+            position: relative;
+            background-image: url(https://images.unsplash.com/photo-1516259762381-22954d7d3ad2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y29kZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80);
+            background-size: contain;
+
+
+            .photo-perfil-principal {
+                width: 10.5rem;
+                height: 10.5rem;
+                border-radius: 50%;
+                position: absolute;
+                top: 5.9rem;
+                left: 3.13rem;
+
+                img {
+                    border-radius: 50%;
+                }
+            }
+        }
+
+        .about {
+            padding:  4.8rem 2.2rem 2.8rem 2.2rem;
+
+            h1, h2 {
+                margin-bottom: 0.5rem;
+            }
+
+            h3 {
+                margin-bottom: 1.5rem;
+                color: #666666;
+            }
+
+            .btns {
+                display: flex;
+                gap: 1.5rem;
+            }
+        }
+    }
+
+    
+    @include responsive(450px) {
+        .btns {
+            padding: 2rem;
+            flex-direction: column;
+        }
+    }
+}
+
+.s-experience {
+    margin-top: 3.2rem;
+
+    .container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .card-area-experience {
+        background-color: white;
+        max-width: 85rem;
+        width: 100%;
+        padding: 1.6rem 2.1rem 3.4rem 2.1rem;
+        border-radius: 0.4rem 0.4rem 0 0;
+        border-bottom: 1px solid #EBEBEB;
+        @include responsive(768px) {
+            max-width: 71.7rem;
+            width: 100%;
+        }
+
+        h2 {
+            margin-bottom: 3rem;
+        }
+    }
+}
+
+.s-academy {
+    margin-bottom: 5rem;
+
+    .container {
+        display: flex;
+        justify-content: center;
+    }
+    .card-area-academy {
+        background-color: white;
+        max-width: 85rem;
+        width: 100%;
+        padding: 1.6rem 2.1rem 3.4rem 2.1rem;
+        border-radius: 0 0 0.4rem 0.4rem;
+        @include responsive(768px) {
+            max-width: 71.7rem;
+            width: 100%;
+        }
+    }
+
+    h2 {
+        margin-bottom: 3rem;
+    }
+}

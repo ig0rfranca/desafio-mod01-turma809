@@ -1,0 +1,20 @@
+.card {
+    display: flex;
+    align-items: initial;
+    margin-bottom: 1.9rem;
+
+    .img-brand {
+        width: 3.5rem;
+        height: 3.5rem;
+        background-color: gray;
+        margin-right: 2.1rem;
+    }
+
+    span, p {
+        font-size: 1.1rem;
+    }
+
+    p {
+        color: #666666;
+    }
+}
